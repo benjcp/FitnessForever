@@ -1,0 +1,97 @@
+<style type="text/css">
+
+/* Stylesheet that allows for changing of styles in HTML code */
+/* Styles across the whole website */
+
+body {
+  margin:0;
+  margin-top:16px;
+  position:relative;
+}
+
+h1{
+  text-align: center;
+  padding:10px;
+}
+
+h2{
+  text-align: center;
+  padding:10px;
+}
+
+#footer{
+  width:100%;
+    padding:10px;
+    padding-bottom:10px;
+    background:grey;
+    color:white;
+    position:fixed;    /*Here's what sticks it*/
+    bottom:0;          /*to the bottom of the body*/
+    left:0;            /*and to the left of the body.*/
+    text-align:center; /*this will center the containers*/
+}
+
+.navbar-brand{
+width:100%
+position: absolute;
+text-align: center;
+}
+
+/* Styles for Index.php */
+
+.blocktext
+{
+  top:45%;
+  background-color:inherit;
+  padding:15px;
+  font-size: 24px;
+}
+
+.text-container{
+  width:100%;
+  text-align: center;
+  position: fixed;
+  padding: 15px;
+}
+
+.about{
+  background-color:inherit;
+}
+
+.form-registration{
+  width:60%;
+  align-content: center;
+  margin:0px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.radio-inline{
+  padding-left:15px;
+  padding-right:15px;
+
+}
+
+.cols-sm-2{
+  padding:15px;
+}
+
+.bgimg{
+background-image: url(https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+opacity: 0.5;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bgimgabout{
+background-image: url(https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+opacity: 0.5;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+</style>
